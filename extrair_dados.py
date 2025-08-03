@@ -3,7 +3,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # Configuração do Banco de Dados PostgreSQL
-DATABASE_URL = "postgresql://pedro:senha_segura@localhost:5432/credito_db"
+DATABASE_URL = "postgresql://"
 engine = create_engine(DATABASE_URL)
 
 # Dicionário com os indicadores do BCB e suas tabelas
